@@ -17,7 +17,7 @@ class Owner:
         self._pets = []
 
     def pets(self):
-        return self._pets  # Return the list of pets added to the owner
+        return self._pets
 
     def add_pet(self, pet):
         if not isinstance(pet, Pet):
